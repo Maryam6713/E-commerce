@@ -1,0 +1,58 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.logo {
+    width: 60px;
+}
+
+#circle {
+    clip-path: circle(50% at 50% 50%);
+    animation: rotate 2s infinite linear;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+h1 {
+    color: orange;
+}
+
+b {
+    color: orange;
+}
+
+
+/* Ensure images and content scale properly on all screen sizes */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.card {
+    margin: 20px;
+
+}
+
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    
+    .navbar-brand img {
+        width: 50px;
+    }
+    .card{
+        margin-left: 20%;
+    }
+}

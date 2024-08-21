@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Ideas</title>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./images/th.jpeg" alt="Logo 1" class="logo" id="circle"><img src="./images/idea.jpeg" alt="Logo 2" class="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><b>Home</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><b>Contact</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><b>Products</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><b>Feedback</b></a>
+              </li>
+            </ul>
+            <!-- <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+          </div>
+        </div>
+      </nav>
+<!-- /////navbar end/////// -->
+
+<div class="main">
+    <div class="container">
+        <h1 class="text-center mt-5">My Ideas</h1>
+        <p class="mt-3 text-center">Welcome to <b>My ideas</b>, where you can explore a world of inspiration for all aspects of your life. Whether you're looking to transform your home with unique decoration ideas, make your school environment more vibrant, discover stylish dress options, perfect your makeup look, or find the latest trends in abayas, our platform is here to spark your creativity. Dive into our collection of innovative ideas and tips, and let your imagination guide you in making every space and occasion truly special.</p>
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <h1 class="mt-3 text-center">Decoration</h1>
+                <p class="mt-3 text-center">Transform your living spaces with our creative home decoration ideas, whether you're revamping your cozy rooms, modern kitchens, or serene balconies. Explore a variety of styles to suit every taste, from minimalist designs to vibrant themes that bring your spaces to life. Additionally, dive into innovative school decoration concepts for classrooms, offices, and gardens that inspire both learning and creativity. Whether it's a colorful classroom setup, a serene office space, or a welcoming garden area, our ideas will help you create environments that are both functional and aesthetically pleasing.</p>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12"><img src="./images/sofa-img.webp" alt="Sofa" class="img-fluid"></div>
+        </div>
+    </div>
+</div>
+<div class="box-two mt-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12"><img src="girl-shoot.jpg" alt="Girl" class="img-fluid"></div>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <h1 class="mt-5 text-center">Your Look</h1>
+                <p class="mt-3 text-center">Discover the perfect blend of style and personality with our curated ideas for girls. From chic dresses and trendy bags to elegant abayas and flawless makeup looks, we provide inspiration to help you express yourself with confidence. Whether you're dressing up for a special occasion or looking for everyday fashion tips, our collection covers everything from classic styles to the latest trends. Embrace your unique personality and enhance your beauty with our expert advice and creative ideas that cater to every taste and preference.</p>
+            </div>
+        </div>
+    </div>
+</div>
+   
+<div class="box-tree mt-5">
+    <div class="container">
+        <h1 class="text-center">Check My Ideas</h1>
+        <hr>
+        <div class="row">
+          <div class="col-12">
+            <select class="form-select mt-5" aria-label="Default select example" id="brand" onchange="setCountry()">
+            </select>
+            <select class="form-select mt-2" aria-label="Default select example" id="country">
+            </select>
+            <button class="btn btn-success mt-3" onclick="clearProduct()">Clear</button>
+            <button class="btn btn-outline-success mt-3" onclick="searchProduct()">Search</button>
+          </div>
+          <div class="row gap-5 mt-3 mx-5" id="main"></div>
+        </div>
+    </div>
+</div>
+<div class="container">
+  <div class="row gap-5 mt-3 mx-5">
+    <div id="selectedCard"></div>
+  </div>
+</div>
+
+<script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
