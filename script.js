@@ -39,7 +39,7 @@ var ideas = {
     //-------------Fifth------------
     hijab_Style: {
      forwedding: { img:"./images/hijabwed.jpg", title: "For wedding",},
-      forparty:{ img:"./images/partyhijab.jpg", title: "For Party",},
+      forparty:{ img:"./image2/hijab2.jpg", title: "For party",},
       forjob:{ img:"./images/hijaboffice.jpg", title: "For Job",},
       foruniversity:{ img:"./images/unihijab.jpg", title: "For University", },
     fordailyWear:{ img:"./images/dailyhijab.jpg", title: "For Daily Wear"},
@@ -98,7 +98,9 @@ var ideas = {
       eid_look:{ img:"./image2/makeup4.jpg", title: "eid makeup look", },
      party_look:{ img:"./image2/makeup5.jpg", title: "party makeup look"},
       simple_look:{img:"./image2/makeup6.jpg",title: "events makeup look",}
-  }
+  },
+
+ 
     }
 
       

@@ -3,8 +3,8 @@ body {
     margin: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
-   
-   
+
+
 }
 
 .logo {
@@ -20,6 +20,7 @@ body {
     from {
         transform: rotate(0deg);
     }
+
     to {
         transform: rotate(360deg);
     }
@@ -27,23 +28,29 @@ body {
 
 h1 {
     color: orange;
-     
+
 }
 
 b {
     color: orange;
 }
-p{
+
+p {
     color: rgb(112, 110, 110);
 }
+
 .card {
     display: flex !important;
     flex-direction: column !important;
-   
+
 }
 
-
-
+#main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+}
 
 /* Ensure images and content scale properly on all screen sizes */
 .img-fluid {
@@ -55,7 +62,7 @@ p{
     margin: 20px;
 
 } */
-.card-img-top{
+.card-img-top {
     width: 100% !important;
     height: 300px;
     object-fit: cover;
@@ -66,27 +73,30 @@ p{
     h1 {
         font-size: 1.5rem;
     }
-    
+
     /* .navbar-brand img {
         width: 50px;
     } */
-    
+
 }
+
 @media (min-width: 992px) {
     .card-columns {
-      column-count: 4; /* Show 4 cards per row on laptops */
+        column-count: 4;
+        /* Show 4 cards per row on laptops */
     }
-  }
-  
-  @media (max-width: 991px) and (min-width: 576px) {
+}
+
+@media (max-width: 991px) and (min-width: 576px) {
     .card-columns {
-      column-count: 2; /* Show 2 cards per row on tablets */
+        column-count: 2;
+        /* Show 2 cards per row on tablets */
     }
-  }
-  
-  @media (max-width: 575px) {
+}
+
+@media (max-width: 575px) {
     .card-columns {
-      column-count: 3; /* Show 3 cards per row on mobile devices */
+        column-count: 3;
+        /* Show 3 cards per row on mobile devices */
     }
-  }
-  
+}
